@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anshu's Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f0f0f;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #151515;
+        }
+
+        nav h2 {
+            color: #00ff88;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #00ff88;
+        }
+
+        .hero p {
+            color: #aaa;
+            font-size: 20px;
+            max-width: 600px;
+        }
+
+        .button {
+            margin-top: 30px;
+            padding: 14px 25px;
+            background: #00ff88;
+            color: black;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            color: #aaa;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #151515;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            nav {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>ANSHU</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+        <h1>Hey, I'm <span>Anshu</span> 👋</h1>
+
+        <p>
+            Welcome to my little corner of the internet.
+            This website was built completely from scratch.
+        </p>
+
+        <a class="button" href="#about">Explore</a>
+
+    </div>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I'm interested in aviation, engineering, technology
+            and building cool things.
+        </p>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>
+            You can add your social media, email,
+            GitHub or anything else here.
+        </p>
+
+    </section>
+
+    <footer>
+        © 2026 Anshu. Built from scratch.
+    </footer>
+
+</body>
+</html>
